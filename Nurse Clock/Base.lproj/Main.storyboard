@@ -1,25 +1,146 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nurse_Clock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fD9-a7-cKR">
+                                <rect key="frame" x="111" y="92" width="193" height="115"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="100"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bH7-ia-H6u">
+                                <rect key="frame" x="145" y="325" width="142" height="86"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="75"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1E-1h-vW8">
+                                <rect key="frame" x="240" y="286" width="47" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jl-aS-9Vd">
+                                <rect key="frame" x="144" y="135" width="127" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="근무표 입력하기"/>
+                                <connections>
+                                    <action selector="onTouchedRegistSchedule:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q24-eA-ejD"/>
+                                    <segue destination="Lyw-YF-c9c" kind="show" identifier="segueToRegistController" id="X04-kB-B1x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOq-LG-6wM">
+                                <rect key="frame" x="355" y="30" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Lyw-YF-c9c" kind="show" id="IIo-Gz-CeJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="EOq-LG-6wM" secondAttribute="trailing" constant="-7" id="2Pi-LO-166"/>
+                            <constraint firstItem="4jl-aS-9Vd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="115" id="2Qc-ad-Nwx"/>
+                            <constraint firstItem="4jl-aS-9Vd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hwu-nM-B0W"/>
+                            <constraint firstItem="bH7-ia-H6u" firstAttribute="top" secondItem="g1E-1h-vW8" secondAttribute="bottom" constant="10" id="IrQ-ud-470"/>
+                            <constraint firstItem="bH7-ia-H6u" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JnV-EL-qI3"/>
+                            <constraint firstItem="EOq-LG-6wM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="NIa-Px-mYw"/>
+                            <constraint firstItem="fD9-a7-cKR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="72" id="On8-8N-TkP"/>
+                            <constraint firstItem="g1E-1h-vW8" firstAttribute="trailing" secondItem="bH7-ia-H6u" secondAttribute="trailing" id="P6s-xC-9YO"/>
+                            <constraint firstItem="fD9-a7-cKR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WEW-Ub-L6c"/>
+                            <constraint firstItem="bH7-ia-H6u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x2t-PZ-Abs"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="btnRegistSchedule" destination="4jl-aS-9Vd" id="kB4-OS-pEh"/>
+                        <outlet property="lbDate" destination="g1E-1h-vW8" id="FUA-1F-hti"/>
+                        <outlet property="lbTime" destination="bH7-ia-H6u" id="dnA-EW-vfP"/>
+                        <outlet property="lbWork" destination="fD9-a7-cKR" id="3L6-i6-eSI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Regist View Controller-->
+        <scene sceneID="jHd-YP-Nuw">
+            <objects>
+                <viewController id="Lyw-YF-c9c" customClass="NCRegistViewController" customModule="Nurse_Clock" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uau-hg-Jft"/>
+                        <viewControllerLayoutGuide type="bottom" id="opJ-yG-y4J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zBf-zz-FpX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9a-9O-NrP">
+                                <rect key="frame" x="352" y="28" width="39" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="onTouchedCloseButton:" destination="Lyw-YF-c9c" eventType="touchUpInside" id="59b-jj-yfY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SV7-uz-nBN">
+                                <rect key="frame" x="154" y="132" width="107" height="58"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G0I-vW-djq">
+                                <rect key="frame" x="40" y="210" width="334" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dwd-4G-uVy">
+                                <rect key="frame" x="340" y="250" width="34" height="30"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="onTouchedSave:" destination="Lyw-YF-c9c" eventType="touchUpInside" id="Fmh-P0-EbA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="N9a-9O-NrP" secondAttribute="trailing" constant="3" id="JeB-2X-Lz4"/>
+                            <constraint firstItem="SV7-uz-nBN" firstAttribute="top" secondItem="uau-hg-Jft" secondAttribute="bottom" constant="112" id="KNV-b7-xST"/>
+                            <constraint firstItem="N9a-9O-NrP" firstAttribute="top" secondItem="uau-hg-Jft" secondAttribute="bottom" constant="8" symbolic="YES" id="XFD-24-LYT"/>
+                            <constraint firstItem="SV7-uz-nBN" firstAttribute="centerX" secondItem="zBf-zz-FpX" secondAttribute="centerX" id="XJB-X3-Kwi"/>
+                            <constraint firstItem="G0I-vW-djq" firstAttribute="leading" secondItem="zBf-zz-FpX" secondAttribute="leadingMargin" constant="20" id="dap-84-Qhg"/>
+                            <constraint firstItem="Dwd-4G-uVy" firstAttribute="top" secondItem="G0I-vW-djq" secondAttribute="bottom" constant="10" id="epW-9C-yui"/>
+                            <constraint firstItem="Dwd-4G-uVy" firstAttribute="trailing" secondItem="G0I-vW-djq" secondAttribute="trailing" id="k2B-mQ-eC7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="G0I-vW-djq" secondAttribute="trailing" constant="20" id="tAi-P1-bdm"/>
+                            <constraint firstItem="G0I-vW-djq" firstAttribute="top" secondItem="SV7-uz-nBN" secondAttribute="bottom" constant="20" id="xSo-kx-AfM"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="lbThisMonth" destination="SV7-uz-nBN" id="ahQ-n6-VnX"/>
+                        <outlet property="tfWorkSchedule" destination="G0I-vW-djq" id="gMM-co-nhp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P4W-sC-Zax" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1363" y="498"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="X04-kB-B1x"/>
+    </inferredMetricsTieBreakers>
 </document>
