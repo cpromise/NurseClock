@@ -19,8 +19,34 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ViewDeck.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>0971C85E83BF151C716097EDB5309245</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3A69BA3273CA5E3868E81299794CD970</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>432ECC54282C84882B482CCB4CF227FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2619B2813D910DBC9FE9714E0788D55</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

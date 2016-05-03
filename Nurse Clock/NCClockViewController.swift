@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NCClockViewController.swift
 //  Nurse Clock
 //
 //  Created by SH on 2016. 5. 3..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NCClockViewController: UIViewController {
     @IBOutlet weak var lbWork: UILabel!
     @IBOutlet weak var lbDate: UILabel!
     @IBOutlet weak var lbTime: UILabel!
@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     let dateManager = NCDateManager()
     let scheduleModel = NCScheduleModel()
     let vc = NCRegistViewController()
+    
+    //날씨
+    let weatherModel = NCWeatherModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()

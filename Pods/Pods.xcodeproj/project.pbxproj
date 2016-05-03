@@ -10,21 +10,6 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>000E8851008476EE1BA977B90437C4B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Stream.swift</string>
-			<key>path</key>
-			<string>Source/Stream.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>015277B715FBEF4E12DEDA3B51B0CD89</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -38,10 +23,49 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>023E20D442CF980714F0EAF5F6309058</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>FSCalendar.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0315F090E19A5FFDF0BE0141D0CB0B67</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FSCalendar.h</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendar.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>03CD97EEF481AA6FF901DF5A8CB67603</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewDeck-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>065EEEAAEE109C0C6F5542EAABA0E8A0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C46448A1B8012E7077B00DBFFA51382A</string>
+			<string>2B99A452A44AC464D279907D4A1DA578</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -50,25 +74,92 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
-		<key>0DF6B85A6B7B65C7FB8FE9806B276029</key>
+		<key>06BC65ADD5ECD9FB72D3007A0508EE0B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Manager.swift</string>
+			<string>IIWrapController.m</string>
 			<key>path</key>
-			<string>Source/Manager.swift</string>
+			<string>ViewDeck/IIWrapController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>08BA4AEFA15E09C228F1D4A9D0986A3F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FSCalendar-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0971C85E83BF151C716097EDB5309245</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>0C14F4BE3E04D6CBD5253442BCBB1744</string>
+			<key>buildPhases</key>
+			<array>
+				<string>ACEF68A799BB1B61ABC8586CD6A38822</string>
+				<string>A179A009008F1DC54A089DA73C7E92F9</string>
+				<string>C8433DD297C036FAE2A473AFAA1538E2</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>ViewDeck</string>
+			<key>productName</key>
+			<string>ViewDeck</string>
+			<key>productReference</key>
+			<string>EB9A4AD55E27C947B319FFA62823D580</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>0A820AA887DF29AB97355EDE04242F40</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FSCalendarEventIndicator.m</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendarEventIndicator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C14F4BE3E04D6CBD5253442BCBB1744</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>84D571006A1AE0096534E459191EDF31</string>
+				<string>7B792902489019C6CF3CD9F480483205</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>0E44012DD097816D61C9AF7B4D509469</key>
 		<dict>
 			<key>fileRef</key>
-			<string>88A7A43C29E75C67E6CA1AD3097A0C12</string>
+			<string>13670D18A987A85DF6346AD8CBD867D4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -79,25 +170,10 @@
 				</array>
 			</dict>
 		</dict>
-		<key>10C4E642DFDF5F23394717C658875A61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendar+IBExtension.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendar+IBExtension.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>10F15A987C9894AEF4FE87FB83AD97BA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>165A2DD032A5948AA9F265A25455E15C</string>
+			<string>3FD36FD48DDEB280C1E9587CD7D5E041</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -106,10 +182,30 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
+		<key>1129D8AC97D92A4C3E79E2CAC03DD03F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E48AF177AF0A52EE2E6B6BE81D004E0C</string>
+				<string>1537CBFE8550076302DD5DC3AB4344B0</string>
+				<string>C46EC120C0D77D0A3664EA3B4378871F</string>
+				<string>97E5C1B153067B2CFD2455B5E44B4513</string>
+				<string>5FF8C28CAC3BF80CFA50B786559CDE4C</string>
+				<string>03CD97EEF481AA6FF901DF5A8CB67603</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/ViewDeck</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>11F20D807E923A4DBE6CDFDA9A73C229</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B8CE81FBA4126C3AC6EA065D28971FD3</string>
+			<string>7C9913A54E60E49A321FF9BC0BE194B1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -133,7 +229,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>12C5437890A4324C23C441EFBF650BAD</key>
+		<key>125A405E000BECBBF345DECFB0970064</key>
+		<dict>
+			<key>fileRef</key>
+			<string>06BC65ADD5ECD9FB72D3007A0508EE0B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks</string>
+			</dict>
+		</dict>
+		<key>1263FD408D6A44ED75ED1DE566578DC7</key>
 		<dict>
 			<key>containerPortal</key>
 			<string>D41D8CD98F00B204E9800998ECF8427E</string>
@@ -146,35 +254,7 @@
 			<key>remoteInfo</key>
 			<string>Alamofire</string>
 		</dict>
-		<key>165A2DD032A5948AA9F265A25455E15C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSDate+FSExtension.m</string>
-			<key>path</key>
-			<string>FSCalendar/NSDate+FSExtension.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>172A8AE507C73475DF5C44B35C8C9DD0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Alamofire-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18FC5D95C7AAFE040C17C34CEA381161</key>
+		<key>13670D18A987A85DF6346AD8CBD867D4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -183,16 +263,56 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FSCalendarAppearance.h</string>
+			<string>FSCalendarHeader.h</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendarAppearance.h</string>
+			<string>FSCalendar/FSCalendarHeader.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>140254FEFD36DE12A688C4EF04309F8E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Stream.swift</string>
+			<key>path</key>
+			<string>Source/Stream.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1537CBFE8550076302DD5DC3AB4344B0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>ViewDeck.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>15728EB2DE0E7503D8D69FB387BF87E9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E642B1A057ADA2ABEF90BE2417F349C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>17EE635D667C412287941E1F8FCAC69D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D249F902E7967EC9863ED1FF38B89B96</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>19CD84CEB6D468F320546AA090E51D3D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C8ABAD09F41FF515DB26E65DF243A22B</string>
+			<string>B8BA60DEA2D8D27446073DE01C422DA7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -204,7 +324,7 @@
 		<key>1C0F72B6232AFCD8FB2221D52BD838EA</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>E7338E48BE4E24AE5E33921C2ADDF95E</string>
+			<string>ADC0B6FE31C1DAD8E4BE30713D14AA33</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -259,21 +379,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>1C2F561D8D80389AEF0A75B0FC08798F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarFlowLayout.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarFlowLayout.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1C2F793EBDDE668F4A27BEAD32210AE6</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -302,7 +407,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>202DE0D5B741115BE71759CF606A3F71</key>
+		<key>1DF547A23D85A3DDF555FE48AA1DBB66</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -311,20 +416,28 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>CALayer+FSExtension.m</string>
+			<string>FSCalendarAppearance.m</string>
 			<key>path</key>
-			<string>FSCalendar/CALayer+FSExtension.m</string>
+			<string>FSCalendar/FSCalendarAppearance.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>20F79AE16B58E0CD618CCD18038837A6</key>
+		<key>1F8C855C1B01223A51D96CF42480A48B</key>
 		<dict>
-			<key>fileRef</key>
-			<string>D249F902E7967EC9863ED1FF38B89B96</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ParameterEncoding.swift</string>
+			<key>path</key>
+			<string>Source/ParameterEncoding.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>233F1F9BEC06692AF41D1DE329804478</key>
+		<key>207D12D2CF316F37C2106EA52C265124</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -333,9 +446,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>UIView+FSExtension.m</string>
+			<string>IISideController.m</string>
 			<key>path</key>
-			<string>FSCalendar/UIView+FSExtension.m</string>
+			<string>ViewDeck/IISideController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -354,7 +467,14 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>2789AC42AC27778FFC03A85B982D815A</key>
+		<key>25329C56DAD132ABF4DC5EEAA3D78C44</key>
+		<dict>
+			<key>fileRef</key>
+			<string>91413329813FA6FE5A78842159E69621</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>28D55810F6DF6C839C2BAAA3DAC02D28</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -363,31 +483,46 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FSCalendarEventIndicator.h</string>
+			<string>FSCalendar+IBExtension.h</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendarEventIndicator.h</string>
+			<string>FSCalendar/FSCalendar+IBExtension.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2851B702C71930CC091FB9D9C6D43032</key>
+		<key>2917EB463FB0D1341970DF088D5F9A95</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>FSCalendar.m</string>
+			<string>ServerTrustPolicy.swift</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendar.m</string>
+			<string>Source/ServerTrustPolicy.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B99A452A44AC464D279907D4A1DA578</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Request.swift</string>
+			<key>path</key>
+			<string>Source/Request.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2C5450AC69398958CF6F7539EF7D99E5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E93FBA46A013E6FC3A6A037933867D48</string>
+			<string>B760523218B92BF3CD663A457BFCEADB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -397,6 +532,30 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>2D8620941C9465AB32F14B132C42BFCA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FSCalendar-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D879C4325E963A80935211E00BAB41E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>ViewDeck</string>
+			<key>target</key>
+			<string>0971C85E83BF151C716097EDB5309245</string>
+			<key>targetProxy</key>
+			<string>7DC53A195926D4B95CC90D1B8346A97B</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -415,7 +574,7 @@
 		<key>2FCE1C00460CF74F457E0093A676A834</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E850705DB52B358741346C6F5E8EBCBC</string>
+			<string>C12374466A90FD1F979546611CA07684</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -433,25 +592,25 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>32A61FB17BCF35336D5B9EAB30338DA0</key>
+		<key>315C4EA22438B4CEA5D5C8E1A184003E</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FSCalendar.framework</string>
+			<string>FSCalendarCell.h</string>
 			<key>path</key>
-			<string>FSCalendar.framework</string>
+			<string>FSCalendar/FSCalendarCell.h</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>330CA798FC43DDC6DD2D609365E0D96C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B50736FA09397AAB634E123CA850BA3B</string>
+			<string>A9B3BBE497A5BAAFB3829D7DB31F2DDA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -460,10 +619,185 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
-		<key>34E5E6EAD4CA8C8000C35EB9B1DB80CC</key>
+		<key>37A872AEA1431B8130881C22AD7A2887</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FSCalendarFlowLayout.m</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendarFlowLayout.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>37DA0312571F6599F8D295474A0F57C7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B8F1626200328FE3CF6C01929D9020D8</string>
+				<string>4EDAA291C6C538386982A73105021E6A</string>
+				<string>7C5AF1A847F868FD04D93145120A0E5F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>39582F80068C0DEF708DEE01B8C053F7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A502FE3EAA76EC3C4DA3423EDE300255</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3A1273A91E875591A8A8B3B4907FF6C4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2CF2C81D40C383DE86094A8E6A9F398</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
+			</dict>
+		</dict>
+		<key>3A69BA3273CA5E3868E81299794CD970</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9829C236BBD9D7F80318B68F8F8D9A8B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>6F647DE9A9E86944A7732F1796AEEF1A</string>
+				<string>9520A2B9F461D387034D52E12F498250</string>
+				<string>75E21D663179822A9CED2F0A253B6BBA</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>ECA819C99A359244B1E9B7403B233F49</string>
+				<string>42ED15EDCEF2D4D912FCA5EFC07984D7</string>
+				<string>2D879C4325E963A80935211E00BAB41E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Nurse Clock</string>
+			<key>productName</key>
+			<string>Pods-Nurse Clock</string>
+			<key>productReference</key>
+			<string>745B73DC145379F206890B73845B989D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>3CD9A881F80C1E666F8A4FBDB58AD18E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B958B6322E883188373BC4D62957FE53</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
+			</dict>
+		</dict>
+		<key>3D2E01F0C0793132CD8DAFD29E3880E6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Result.swift</string>
+			<key>path</key>
+			<string>Source/Result.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3FD36FD48DDEB280C1E9587CD7D5E041</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSDate+FSExtension.m</string>
+			<key>path</key>
+			<string>FSCalendar/NSDate+FSExtension.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>42ED15EDCEF2D4D912FCA5EFC07984D7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>FSCalendar</string>
+			<key>target</key>
+			<string>B2619B2813D910DBC9FE9714E0788D55</string>
+			<key>targetProxy</key>
+			<string>54B82F6D74B3290A54998A2D7530E4C5</string>
+		</dict>
+		<key>432ECC54282C84882B482CCB4CF227FC</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>8B2B2DA2F7F80D41B1FDB5FACFA4B3DE</string>
+			<key>buildPhases</key>
+			<array>
+				<string>DB4A906CAC9188ECBA8C02843B10E921</string>
+				<string>A5AE1D340C4A0691EC28EEA8241C9FCD</string>
+				<string>5F7B61281F714E2A64A51E80A2C9C062</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Alamofire</string>
+			<key>productName</key>
+			<string>Alamofire</string>
+			<key>productReference</key>
+			<string>DE75E29444B832E49CF478F053EF577E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>437519A278AE2B3E183F1D2FC2B59828</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2917EB463FB0D1341970DF088D5F9A95</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
+			</dict>
+		</dict>
+		<key>45A7E29F51E3251A42F6AFA097416B78</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>015277B715FBEF4E12DEDA3B51B0CD89</string>
+			<string>F8AE3B3F7D4123E8153A82987C9B22AE</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -497,7 +831,7 @@
 				<key>MODULEMAP_FILE</key>
 				<string>Target Support Files/Pods-Nurse Clock/Pods-Nurse Clock.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
+				<string>YES</string>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>OTHER_LIBTOOLFLAGS</key>
@@ -510,6 +844,8 @@
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
 				<key>TARGETED_DEVICE_FAMILY</key>
 				<string>1,2</string>
 				<key>VERSIONING_SYSTEM</key>
@@ -520,146 +856,12 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3598A65E6ED48C112076E80D5F1A72A6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C10FB819D2C72311A71FDE4BF7BA655F</string>
-				<string>32A61FB17BCF35336D5B9EAB30338DA0</string>
-				<string>B6C004EA2E86F4D0D9B14F0A120A1D3B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>39582F80068C0DEF708DEE01B8C053F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F44783029B157E70964780A45E1D87AD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3A1273A91E875591A8A8B3B4907FF6C4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>202DE0D5B741115BE71759CF606A3F71</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
-			</dict>
-		</dict>
-		<key>3CAD0E338347118010DB9D2ADFF9566B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSString+FSExtension.h</string>
-			<key>path</key>
-			<string>FSCalendar/NSString+FSExtension.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CD9A881F80C1E666F8A4FBDB58AD18E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>233F1F9BEC06692AF41D1DE329804478</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
-			</dict>
-		</dict>
-		<key>432ECC54282C84882B482CCB4CF227FC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8B2B2DA2F7F80D41B1FDB5FACFA4B3DE</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DB4A906CAC9188ECBA8C02843B10E921</string>
-				<string>A5AE1D340C4A0691EC28EEA8241C9FCD</string>
-				<string>5F7B61281F714E2A64A51E80A2C9C062</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>productName</key>
-			<string>Alamofire</string>
-			<key>productReference</key>
-			<string>C10FB819D2C72311A71FDE4BF7BA655F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>437519A278AE2B3E183F1D2FC2B59828</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B94032AA70023E3D314DF011F3FF36A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
-			</dict>
-		</dict>
-		<key>44D224B836E859425C4902F6ECA22A2B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>CC3F1F07E3E9ECD68E454C17C7190E87</string>
-				<string>34E5E6EAD4CA8C8000C35EB9B1DB80CC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4641A6DF626E277203ADF3CD97A5556B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>ParameterEncoding.swift</string>
-			<key>path</key>
-			<string>Source/ParameterEncoding.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Debug</string>
 		</dict>
 		<key>48DA8D1B20888A371416D803746B1231</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9EA5AB6FB1BE6C394D29E7FD0A1B9470</string>
+			<string>BEA06FBBE16A77FA40FA563418498C89</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -670,7 +872,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>4F4ABED80AE633D25B6B816F6ADC4502</key>
+		<key>4BD4A3A67821CE422CE7B047B8341A0F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -679,9 +881,55 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>FSCalendarAnimator.m</string>
+			<string>FSCalendar+IBExtension.m</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendarAnimator.m</string>
+			<string>FSCalendar/FSCalendar+IBExtension.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4EDAA291C6C538386982A73105021E6A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>925F3B572456C42447317102D3F12127</string>
+				<string>B2CF2C81D40C383DE86094A8E6A9F398</string>
+				<string>0315F090E19A5FFDF0BE0141D0CB0B67</string>
+				<string>C625309C26C3FB76FAB6309BD28A97C2</string>
+				<string>28D55810F6DF6C839C2BAAA3DAC02D28</string>
+				<string>4BD4A3A67821CE422CE7B047B8341A0F</string>
+				<string>83B8051CB26C0BA39115F735B01BA6FA</string>
+				<string>8E3AD0D3DB4D55F4F75AD7541AA8D5CE</string>
+				<string>EAB32CAC3B877C2ECB7D0938FB74CACF</string>
+				<string>1DF547A23D85A3DDF555FE48AA1DBB66</string>
+				<string>315C4EA22438B4CEA5D5C8E1A184003E</string>
+				<string>EAE873DFF77917C55EA4E43490C244D7</string>
+				<string>7C9913A54E60E49A321FF9BC0BE194B1</string>
+				<string>92BAEEBF533B0A2F055D4A01C6661B60</string>
+				<string>C12374466A90FD1F979546611CA07684</string>
+				<string>834CE98FD7FE2DA9DD584E558AD734F4</string>
+				<string>503A65D3BC21F5408ADD593A6184558E</string>
+				<string>8874C13B619C116FD2FAACD897E75D69</string>
+				<string>0A820AA887DF29AB97355EDE04242F40</string>
+				<string>B3598F6C3400B04F00FA3B37EC0CAD5C</string>
+				<string>37A872AEA1431B8130881C22AD7A2887</string>
+				<string>13670D18A987A85DF6346AD8CBD867D4</string>
+				<string>9F583A993DDCDB794312405EC2182B09</string>
+				<string>E8BD35034FC2696729C9126DF5A2EBD2</string>
+				<string>FA39CAEDDB5BE93B0B787EACF13067E2</string>
+				<string>A502FE3EAA76EC3C4DA3423EDE300255</string>
+				<string>3FD36FD48DDEB280C1E9587CD7D5E041</string>
+				<string>5E425804476B34621DF839B7D2E0BB39</string>
+				<string>B365D3F28755475AA81D9E63DB6F091B</string>
+				<string>5E294A02FEDC3C78CD5110404E0504D6</string>
+				<string>B958B6322E883188373BC4D62957FE53</string>
+				<string>7CB13DE93FEE358D3107D6D6761DA41C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FSCalendar</string>
+			<key>path</key>
+			<string>FSCalendar</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -709,7 +957,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>54A90D54CD302C35A96C15988747EDD8</key>
+		<key>503A65D3BC21F5408ADD593A6184558E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -718,31 +966,29 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FSCalendar.h</string>
+			<string>FSCalendarDynamicHeader.h</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendar.h</string>
+			<string>FSCalendar/FSCalendarDynamicHeader.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>59869E4B8B6A7E1768FAD155B6FBD865</key>
+		<key>54B82F6D74B3290A54998A2D7530E4C5</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarCell.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>B2619B2813D910DBC9FE9714E0788D55</string>
+			<key>remoteInfo</key>
+			<string>FSCalendar</string>
 		</dict>
 		<key>59BDD0605A645E7A557CA76076B50603</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E3D247FF81F59B8AB2D7CA301AA59B0B</string>
+			<string>B6A8931DFB73A4BF701EBACB06A8CAEE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -751,32 +997,19 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
-		<key>5B3740C70C734FF530BF19DFD3D213DE</key>
+		<key>5B130C286B90EE4523EAB7B343A0E7D9</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>E0B20221768D209005D933E44DCCD0E8</string>
-				<string>E3D247FF81F59B8AB2D7CA301AA59B0B</string>
-				<string>AA1A82C39FC0265A7913BD445AA17CED</string>
-				<string>0DF6B85A6B7B65C7FB8FE9806B276029</string>
-				<string>AB9A9A4D3C32A39322239B6925835E12</string>
-				<string>4641A6DF626E277203ADF3CD97A5556B</string>
-				<string>C46448A1B8012E7077B00DBFFA51382A</string>
-				<string>C8ABAD09F41FF515DB26E65DF243A22B</string>
-				<string>B50736FA09397AAB634E123CA850BA3B</string>
-				<string>B4A5B6F90A3D16D56EC6CAA58266739C</string>
-				<string>7B94032AA70023E3D314DF011F3FF36A</string>
-				<string>000E8851008476EE1BA977B90437C4B2</string>
-				<string>BAE37C8A554C393ADA97290E51798AB1</string>
-				<string>75629CBFADEAF539883563D0FAB1A321</string>
-				<string>C4CCFC451E491D14B73A1730E40BAB7B</string>
+				<string>DE75E29444B832E49CF478F053EF577E</string>
+				<string>DE29260EFF852C7D0127AE74FF55599D</string>
+				<string>745B73DC145379F206890B73845B989D</string>
+				<string>EB9A4AD55E27C947B319FFA62823D580</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Alamofire</string>
-			<key>path</key>
-			<string>Alamofire</string>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -796,7 +1029,7 @@
 		<key>5C88EB02C6D789D20C6298CF77049112</key>
 		<dict>
 			<key>fileRef</key>
-			<string>10C4E642DFDF5F23394717C658875A61</string>
+			<string>28D55810F6DF6C839C2BAAA3DAC02D28</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -880,7 +1113,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>5DE258D0D91260BF883A299091D102DA</key>
+		<key>5E294A02FEDC3C78CD5110404E0504D6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -889,24 +1122,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CALayer+FSExtension.h</string>
+			<string>UIView+FSExtension.h</string>
 			<key>path</key>
-			<string>FSCalendar/CALayer+FSExtension.h</string>
+			<string>FSCalendar/UIView+FSExtension.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5EF3254CB7DE36232172613DF94E5084</key>
+		<key>5E425804476B34621DF839B7D2E0BB39</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FSCalendarHeader.m</string>
+			<string>NSString+FSExtension.h</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendarHeader.m</string>
+			<string>FSCalendar/NSString+FSExtension.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -923,44 +1156,57 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>60617880501D1CC816D69ADBD2419638</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A7AF22E380209DD901BF4A0ED17DF8A2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
-			</dict>
-		</dict>
-		<key>62CDAAB63113FA046031E8D01E7314CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D7D2DA97CFDC91BBCB426BA4D24F4888</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
-			</dict>
-		</dict>
-		<key>68833B1433708282397F7165F60668D8</key>
+		<key>5FF8C28CAC3BF80CFA50B786559CDE4C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarEventIndicator.m</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendarEventIndicator.m</string>
+			<string>ViewDeck-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>60617880501D1CC816D69ADBD2419638</key>
+		<dict>
+			<key>fileRef</key>
+			<string>92BAEEBF533B0A2F055D4A01C6661B60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
+			</dict>
+		</dict>
+		<key>62636E2F8878395FBA4AFFF658D610F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>MultipartFormData.swift</string>
+			<key>path</key>
+			<string>Source/MultipartFormData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>62CDAAB63113FA046031E8D01E7314CD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4BD4A3A67821CE422CE7B047B8341A0F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
+			</dict>
 		</dict>
 		<key>695F8DE928EEEB9972742E5423AF71DD</key>
 		<dict>
@@ -978,7 +1224,21 @@
 		<key>6983260381111B42F335961452EEE2B0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>87EC9E1ACC068E7362D7E4BC4D99237C</string>
+			<string>B3598F6C3400B04F00FA3B37EC0CAD5C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6A4A2B3FB419FA0E0F554785EBE4065D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B19918B6D3DAFC38549231247690653B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -992,7 +1252,7 @@
 		<key>6A894238620452611CA75F7D61E35F11</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4F4ABED80AE633D25B6B816F6ADC4502</string>
+			<string>8E3AD0D3DB4D55F4F75AD7541AA8D5CE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1001,34 +1261,48 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
-		<key>6BA304F3F619C25E79209A5B99C5E52C</key>
+		<key>6AB0620D0C523E782FF7CDA10A07E78D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>207D12D2CF316F37C2106EA52C265124</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks</string>
+			</dict>
+		</dict>
+		<key>6B6657B7F72688391C7BF9A92E3500C6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>FSCalendar-prefix.pch</string>
+			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6D3C2913AFDE56E17D75092244F00DD7</key>
+		<key>6F647DE9A9E86944A7732F1796AEEF1A</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>17EE635D667C412287941E1F8FCAC69D</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>FSCalendar.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>7189FE5C03D8C6A44E5FF0F57F8DBC0F</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>8258DDB3131680EE7763D1DB2B750F29</string>
+			<string>B9D2ECD7985C393CA050EDA645652487</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1091,6 +1365,21 @@
 			<string>Pods-Nurse Clock.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>745B73DC145379F206890B73845B989D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_Nurse_Clock.framework</string>
+			<key>path</key>
+			<string>Pods_Nurse_Clock.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>74857149DC1E0D599B8A01A78349A926</key>
 		<dict>
@@ -1160,25 +1449,23 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>75629CBFADEAF539883563D0FAB1A321</key>
+		<key>75E21D663179822A9CED2F0A253B6BBA</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A664FA30C3DD3E0BE4F599A639630FED</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Validation.swift</string>
-			<key>path</key>
-			<string>Source/Validation.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>787942EE084A25BA375B03380E60C60A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>000E8851008476EE1BA977B90437C4B2</string>
+			<string>140254FEFD36DE12A688C4EF04309F8E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1190,7 +1477,7 @@
 		<key>78C9ED07C7E2BF3A26D549D72779CC8E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4641A6DF626E277203ADF3CD97A5556B</string>
+			<string>1F8C855C1B01223A51D96CF42480A48B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1199,34 +1486,7 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
-		<key>79D62EA00E68633A28578D7AA8820D68</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSString+FSExtension.m</string>
-			<key>path</key>
-			<string>FSCalendar/NSString+FSExtension.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B01E037BD5A310074BCDDDB7C549D0B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0B20221768D209005D933E44DCCD0E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
-			</dict>
-		</dict>
-		<key>7B94032AA70023E3D314DF011F3FF36A</key>
+		<key>7AC8CF89BD6A79CAC3E2CA86EBF29A58</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1235,9 +1495,134 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>ServerTrustPolicy.swift</string>
+			<string>Alamofire.swift</string>
 			<key>path</key>
-			<string>Source/ServerTrustPolicy.swift</string>
+			<string>Source/Alamofire.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7B01E037BD5A310074BCDDDB7C549D0B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7AC8CF89BD6A79CAC3E2CA86EBF29A58</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
+			</dict>
+		</dict>
+		<key>7B792902489019C6CF3CD9F480483205</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C46EC120C0D77D0A3664EA3B4378871F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/ViewDeck/ViewDeck-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/ViewDeck/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/ViewDeck/ViewDeck.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>ViewDeck</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>7C5AF1A847F868FD04D93145120A0E5F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BFC005DCFF83830D38A70C5ED8A7B23C</string>
+				<string>207D12D2CF316F37C2106EA52C265124</string>
+				<string>B19918B6D3DAFC38549231247690653B</string>
+				<string>A3F6BF89E666695BE5E6E33876FA27A0</string>
+				<string>B25ED2954AD370E9EDE55CB0505D178E</string>
+				<string>06BC65ADD5ECD9FB72D3007A0508EE0B</string>
+				<string>BD03EC28598720696F51FF02FE7E93D8</string>
+				<string>1129D8AC97D92A4C3E79E2CAC03DD03F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ViewDeck</string>
+			<key>path</key>
+			<string>ViewDeck</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7C9913A54E60E49A321FF9BC0BE194B1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FSCalendarCollectionView.h</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendarCollectionView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7CB13DE93FEE358D3107D6D6761DA41C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>023E20D442CF980714F0EAF5F6309058</string>
+				<string>B9D2ECD7985C393CA050EDA645652487</string>
+				<string>08BA4AEFA15E09C228F1D4A9D0986A3F</string>
+				<string>2D8620941C9465AB32F14B132C42BFCA</string>
+				<string>8F5C0C0E7F3003561F5CD14B3145D148</string>
+				<string>CAB34DD135511CC5CF83DD20822107DF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/FSCalendar</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1247,14 +1632,27 @@
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>122DA2E5084A4393C29BE363C764795C</string>
-				<string>F42067920DCE2D30BCB89C0F65CFBC8F</string>
-				<string>3598A65E6ED48C112076E80D5F1A72A6</string>
+				<string>37DA0312571F6599F8D295474A0F57C7</string>
+				<string>5B130C286B90EE4523EAB7B343A0E7D9</string>
 				<string>5C1E31DE2B79B985BBA31F5E864AEA6A</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DC53A195926D4B95CC90D1B8346A97B</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>0971C85E83BF151C716097EDB5309245</string>
+			<key>remoteInfo</key>
+			<string>ViewDeck</string>
 		</dict>
 		<key>7E66DDA4D9ACEE4559FE14589C5F582B</key>
 		<dict>
@@ -1273,7 +1671,7 @@
 		<key>7FE3ECFE7843570AAFAD9216E3546026</key>
 		<dict>
 			<key>fileRef</key>
-			<string>850C8CD84A6D8A7E5E63965EB5B48568</string>
+			<string>E8BD35034FC2696729C9126DF5A2EBD2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1284,62 +1682,33 @@
 				</array>
 			</dict>
 		</dict>
-		<key>8258DDB3131680EE7763D1DB2B750F29</key>
+		<key>834CE98FD7FE2DA9DD584E558AD734F4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FSCalendarConstance.m</string>
 			<key>path</key>
-			<string>FSCalendar.xcconfig</string>
+			<string>FSCalendar/FSCalendarConstance.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>834E25B63E279CA758F4F6699AB4C5FA</key>
+		<key>83B8051CB26C0BA39115F735B01BA6FA</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>5DE258D0D91260BF883A299091D102DA</string>
-				<string>202DE0D5B741115BE71759CF606A3F71</string>
-				<string>54A90D54CD302C35A96C15988747EDD8</string>
-				<string>2851B702C71930CC091FB9D9C6D43032</string>
-				<string>10C4E642DFDF5F23394717C658875A61</string>
-				<string>D7D2DA97CFDC91BBCB426BA4D24F4888</string>
-				<string>941FBABB847234EEED5C403C82811161</string>
-				<string>4F4ABED80AE633D25B6B816F6ADC4502</string>
-				<string>18FC5D95C7AAFE040C17C34CEA381161</string>
-				<string>C35532D70989ABFDF49B3778C0D816AA</string>
-				<string>59869E4B8B6A7E1768FAD155B6FBD865</string>
-				<string>CD4806C83578581AE12CE7D9350B1A82</string>
-				<string>B8CE81FBA4126C3AC6EA065D28971FD3</string>
-				<string>A7AF22E380209DD901BF4A0ED17DF8A2</string>
-				<string>E850705DB52B358741346C6F5E8EBCBC</string>
-				<string>F53BE0C10BD33830EAF6A00F70BBA011</string>
-				<string>CB64B1F6BA3E65AD3701894E27735C23</string>
-				<string>2789AC42AC27778FFC03A85B982D815A</string>
-				<string>68833B1433708282397F7165F60668D8</string>
-				<string>87EC9E1ACC068E7362D7E4BC4D99237C</string>
-				<string>1C2F561D8D80389AEF0A75B0FC08798F</string>
-				<string>88A7A43C29E75C67E6CA1AD3097A0C12</string>
-				<string>5EF3254CB7DE36232172613DF94E5084</string>
-				<string>850C8CD84A6D8A7E5E63965EB5B48568</string>
-				<string>AF0804EA6DF1F5361C916363F58FAEDF</string>
-				<string>F44783029B157E70964780A45E1D87AD</string>
-				<string>165A2DD032A5948AA9F265A25455E15C</string>
-				<string>3CAD0E338347118010DB9D2ADFF9566B</string>
-				<string>79D62EA00E68633A28578D7AA8820D68</string>
-				<string>B907872BA9E322BACE05AE5CB020302D</string>
-				<string>233F1F9BEC06692AF41D1DE329804478</string>
-				<string>DC34FD637082DF57EAE77F9374B45613</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FSCalendar</string>
+			<string>FSCalendarAnimator.h</string>
 			<key>path</key>
-			<string>FSCalendar</string>
+			<string>FSCalendar/FSCalendarAnimator.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1372,7 +1741,63 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>850C8CD84A6D8A7E5E63965EB5B48568</key>
+		<key>84D571006A1AE0096534E459191EDF31</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C46EC120C0D77D0A3664EA3B4378871F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/ViewDeck/ViewDeck-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/ViewDeck/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/ViewDeck/ViewDeck.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>ViewDeck</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8874C13B619C116FD2FAACD897E75D69</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1381,52 +1806,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FSCalendarStickyHeader.h</string>
+			<string>FSCalendarEventIndicator.h</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendarStickyHeader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>874C24717DFFFD1333368D90035B99E5</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B2619B2813D910DBC9FE9714E0788D55</string>
-			<key>remoteInfo</key>
-			<string>FSCalendar</string>
-		</dict>
-		<key>87EC9E1ACC068E7362D7E4BC4D99237C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarFlowLayout.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarFlowLayout.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88A7A43C29E75C67E6CA1AD3097A0C12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarHeader.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarHeader.h</string>
+			<string>FSCalendar/FSCalendarEventIndicator.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1444,21 +1826,50 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>8D1986B619C589718CF48D4A9FC98386</key>
+		<key>8E3AD0D3DB4D55F4F75AD7541AA8D5CE</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>FSCalendar</string>
-			<key>target</key>
-			<string>B2619B2813D910DBC9FE9714E0788D55</string>
-			<key>targetProxy</key>
-			<string>874C24717DFFFD1333368D90035B99E5</string>
+			<string>FSCalendarAnimator.m</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendarAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8D53E876525C7D083113AD998180AF53</key>
+		<key>8E4605D767E337FAEEFA6096E5FEC949</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F551D3DB197A565F873AB843AFAADF94</string>
+			<string>EAAAB7F92CFAB6D356B28FB656EDEF55</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
+			</dict>
+		</dict>
+		<key>8F5C0C0E7F3003561F5CD14B3145D148</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FSCalendar-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8FA399B77C810BA1C4DA66A70E2C42E5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFC005DCFF83830D38A70C5ED8A7B23C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1468,31 +1879,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>8E4605D767E337FAEEFA6096E5FEC949</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA1A82C39FC0265A7913BD445AA17CED</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
-			</dict>
-		</dict>
-		<key>8E943C99D293A73816FB72364D3E7254</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>20F79AE16B58E0CD618CCD18038837A6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>91413329813FA6FE5A78842159E69621</key>
 		<dict>
@@ -1507,7 +1893,7 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>941FBABB847234EEED5C403C82811161</key>
+		<key>925F3B572456C42447317102D3F12127</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1516,16 +1902,44 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FSCalendarAnimator.h</string>
+			<string>CALayer+FSExtension.h</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendarAnimator.h</string>
+			<string>FSCalendar/CALayer+FSExtension.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>92BAEEBF533B0A2F055D4A01C6661B60</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FSCalendarCollectionView.m</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendarCollectionView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9520A2B9F461D387034D52E12F498250</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>981E922D2F904AD1B4954C63C6A10178</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>9522DA78F08119D9EAFA3E30698BDE41</key>
 		<dict>
 			<key>fileRef</key>
-			<string>59869E4B8B6A7E1768FAD155B6FBD865</string>
+			<string>315C4EA22438B4CEA5D5C8E1A184003E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1543,43 +1957,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>981E0AF14EC2C9F5548E7ADAF1B5141C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>target</key>
-			<string>432ECC54282C84882B482CCB4CF227FC</string>
-			<key>targetProxy</key>
-			<string>12C5437890A4324C23C441EFBF650BAD</string>
-		</dict>
-		<key>987208B78AAC0347888890A282E42DFD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98CFD4F3059E3F8209335ED81A6BB13F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C35532D70989ABFDF49B3778C0D816AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
-			</dict>
-		</dict>
-		<key>9EA5AB6FB1BE6C394D29E7FD0A1B9470</key>
+		<key>97E5C1B153067B2CFD2455B5E44B4513</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1588,31 +1966,97 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Alamofire-dummy.m</string>
+			<string>ViewDeck-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9EF1E4E9BE5F2A00E08184B1D3D8853B</key>
+		<key>981E922D2F904AD1B4954C63C6A10178</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>91413329813FA6FE5A78842159E69621</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Alamofire.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>A42A3966F70EF33544ABFEF052092BA6</key>
+		<key>9829C236BBD9D7F80318B68F8F8D9A8B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>45A7E29F51E3251A42F6AFA097416B78</string>
+				<string>D203F99741A6ABDA028EAE99664D1670</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>98CFD4F3059E3F8209335ED81A6BB13F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1DF547A23D85A3DDF555FE48AA1DBB66</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
+			</dict>
+		</dict>
+		<key>98E2FD9F774A2BBD0D3A490AD06E81D1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>Alamofire-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9F583A993DDCDB794312405EC2182B09</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FSCalendarHeader.m</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendarHeader.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A179A009008F1DC54A089DA73C7E92F9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>25329C56DAD132ABF4DC5EEAA3D78C44</string>
+				<string>15728EB2DE0E7503D8D69FB387BF87E9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A3F6BF89E666695BE5E6E33876FA27A0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IIViewDeckController.m</string>
+			<key>path</key>
+			<string>ViewDeck/IIViewDeckController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1629,6 +2073,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A502FE3EAA76EC3C4DA3423EDE300255</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSDate+FSExtension.h</string>
+			<key>path</key>
+			<string>FSCalendar/NSDate+FSExtension.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A5AE1D340C4A0691EC28EEA8241C9FCD</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1642,98 +2101,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>A7AF22E380209DD901BF4A0ED17DF8A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarCollectionView.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarCollectionView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA1A82C39FC0265A7913BD445AA17CED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Error.swift</string>
-			<key>path</key>
-			<string>Source/Error.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB9A9A4D3C32A39322239B6925835E12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>MultipartFormData.swift</string>
-			<key>path</key>
-			<string>Source/MultipartFormData.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AD00F3FE65826A2451DE55F77942A9A3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>44D224B836E859425C4902F6ECA22A2B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8E943C99D293A73816FB72364D3E7254</string>
-				<string>C709F5542157619F111BA6D897F40515</string>
-				<string>C8D461770770A35334B5B3FAB7A0D687</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>981E0AF14EC2C9F5548E7ADAF1B5141C</string>
-				<string>8D1986B619C589718CF48D4A9FC98386</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Nurse Clock</string>
-			<key>productName</key>
-			<string>Pods-Nurse Clock</string>
-			<key>productReference</key>
-			<string>B6C004EA2E86F4D0D9B14F0A120A1D3B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>AF0804EA6DF1F5361C916363F58FAEDF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarStickyHeader.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarStickyHeader.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B08294E2247DE35943C7180A647EE72D</key>
+		<key>A61646A627E72BA6FEDD0BAA76861AEE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3CAD0E338347118010DB9D2ADFF9566B</string>
+			<string>BD03EC28598720696F51FF02FE7E93D8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1743,6 +2114,108 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>A664FA30C3DD3E0BE4F599A639630FED</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F551D3DB197A565F873AB843AFAADF94</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A9B3BBE497A5BAAFB3829D7DB31F2DDA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ResponseSerialization.swift</string>
+			<key>path</key>
+			<string>Source/ResponseSerialization.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ACEF68A799BB1B61ABC8586CD6A38822</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6AB0620D0C523E782FF7CDA10A07E78D</string>
+				<string>FB183C77249A3A86D4C1670B88CE7946</string>
+				<string>125A405E000BECBBF345DECFB0970064</string>
+				<string>F9BEF3FBA9D237610AA7AFC48C79AD79</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>ADC0B6FE31C1DAD8E4BE30713D14AA33</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Alamofire.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B08294E2247DE35943C7180A647EE72D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5E425804476B34621DF839B7D2E0BB39</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B19918B6D3DAFC38549231247690653B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IIViewDeckController.h</string>
+			<key>path</key>
+			<string>ViewDeck/IIViewDeckController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B25ED2954AD370E9EDE55CB0505D178E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IIWrapController.h</string>
+			<key>path</key>
+			<string>ViewDeck/IIWrapController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B2619B2813D910DBC9FE9714E0788D55</key>
 		<dict>
@@ -1765,11 +2238,11 @@
 			<key>productName</key>
 			<string>FSCalendar</string>
 			<key>productReference</key>
-			<string>32A61FB17BCF35336D5B9EAB30338DA0</string>
+			<string>DE29260EFF852C7D0127AE74FF55599D</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>B3395F55DA2D68125C534CB45F2EFA4E</key>
+		<key>B2CF2C81D40C383DE86094A8E6A9F398</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1777,23 +2250,40 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CALayer+FSExtension.m</string>
 			<key>path</key>
-			<string>FSCalendar-dummy.m</string>
+			<string>FSCalendar/CALayer+FSExtension.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B4A5B6F90A3D16D56EC6CAA58266739C</key>
+		<key>B3598F6C3400B04F00FA3B37EC0CAD5C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Result.swift</string>
+			<string>FSCalendarFlowLayout.h</string>
 			<key>path</key>
-			<string>Source/Result.swift</string>
+			<string>FSCalendar/FSCalendarFlowLayout.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B365D3F28755475AA81D9E63DB6F091B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSString+FSExtension.m</string>
+			<key>path</key>
+			<string>FSCalendar/NSString+FSExtension.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1804,7 +2294,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>B50736FA09397AAB634E123CA850BA3B</key>
+		<key>B6A8931DFB73A4BF701EBACB06A8CAEE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1813,31 +2303,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>ResponseSerialization.swift</string>
+			<string>Download.swift</string>
 			<key>path</key>
-			<string>Source/ResponseSerialization.swift</string>
+			<string>Source/Download.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B6C004EA2E86F4D0D9B14F0A120A1D3B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Nurse_Clock.framework</string>
-			<key>path</key>
-			<string>Pods_Nurse_Clock.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>B70E88B2F483B7A8FF3B56215D32E113</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>8258DDB3131680EE7763D1DB2B750F29</string>
+			<string>B9D2ECD7985C393CA050EDA645652487</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1890,7 +2365,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>B8CE81FBA4126C3AC6EA065D28971FD3</key>
+		<key>B760523218B92BF3CD663A457BFCEADB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1898,38 +2373,95 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarCollectionView.h</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendarCollectionView.h</string>
+			<string>Alamofire-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B907872BA9E322BACE05AE5CB020302D</key>
+		<key>B8BA60DEA2D8D27446073DE01C422DA7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>UIView+FSExtension.h</string>
+			<string>Response.swift</string>
 			<key>path</key>
-			<string>FSCalendar/UIView+FSExtension.h</string>
+			<string>Source/Response.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B9409E0AD9014C50312E98CC67FE66E4</key>
+		<key>B8F1626200328FE3CF6C01929D9020D8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7AC8CF89BD6A79CAC3E2CA86EBF29A58</string>
+				<string>B6A8931DFB73A4BF701EBACB06A8CAEE</string>
+				<string>EAAAB7F92CFAB6D356B28FB656EDEF55</string>
+				<string>E351982EFDBC3893FB4D05F382E5154C</string>
+				<string>62636E2F8878395FBA4AFFF658D610F7</string>
+				<string>1F8C855C1B01223A51D96CF42480A48B</string>
+				<string>2B99A452A44AC464D279907D4A1DA578</string>
+				<string>B8BA60DEA2D8D27446073DE01C422DA7</string>
+				<string>A9B3BBE497A5BAAFB3829D7DB31F2DDA</string>
+				<string>3D2E01F0C0793132CD8DAFD29E3880E6</string>
+				<string>2917EB463FB0D1341970DF088D5F9A95</string>
+				<string>140254FEFD36DE12A688C4EF04309F8E</string>
+				<string>B97885DBD6AAB53C0B8252820120340D</string>
+				<string>C847B17FDACFF38D14DA0025165401D8</string>
+				<string>E9335F21126CF8B03CC756AAF545832A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Alamofire</string>
+			<key>path</key>
+			<string>Alamofire</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B958B6322E883188373BC4D62957FE53</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIView+FSExtension.m</string>
 			<key>path</key>
-			<string>FSCalendar-umbrella.h</string>
+			<string>FSCalendar/UIView+FSExtension.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B97885DBD6AAB53C0B8252820120340D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Upload.swift</string>
+			<key>path</key>
+			<string>Source/Upload.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B9D2ECD7985C393CA050EDA645652487</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>FSCalendar.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1950,25 +2482,38 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BAE37C8A554C393ADA97290E51798AB1</key>
+		<key>BD03EC28598720696F51FF02FE7E93D8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Upload.swift</string>
+			<string>ViewDeck.h</string>
 			<key>path</key>
-			<string>Source/Upload.swift</string>
+			<string>ViewDeck/ViewDeck.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BEA06FBBE16A77FA40FA563418498C89</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Alamofire-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BEFB1AAE1FD4939FE1CAB768A8ABB75F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1C2F561D8D80389AEF0A75B0FC08798F</string>
+			<string>37A872AEA1431B8130881C22AD7A2887</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1977,25 +2522,40 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
-		<key>C10FB819D2C72311A71FDE4BF7BA655F</key>
+		<key>BFC005DCFF83830D38A70C5ED8A7B23C</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Alamofire.framework</string>
+			<string>IISideController.h</string>
 			<key>path</key>
-			<string>Alamofire.framework</string>
+			<string>ViewDeck/IISideController.h</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C12374466A90FD1F979546611CA07684</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FSCalendarConstance.h</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendarConstance.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C17B63D63425ED26125A32CC2E15B2A6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B907872BA9E322BACE05AE5CB020302D</string>
+			<string>5E294A02FEDC3C78CD5110404E0504D6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2005,21 +2565,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>C35532D70989ABFDF49B3778C0D816AA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarAppearance.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarAppearance.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C4540EC18D61FD49F1E3BED28990CA9A</key>
 		<dict>
@@ -2034,45 +2579,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C46448A1B8012E7077B00DBFFA51382A</key>
+		<key>C46EC120C0D77D0A3664EA3B4378871F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Request.swift</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Source/Request.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4CCFC451E491D14B73A1730E40BAB7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9EF1E4E9BE5F2A00E08184B1D3D8853B</string>
-				<string>E7338E48BE4E24AE5E33921C2ADDF95E</string>
-				<string>9EA5AB6FB1BE6C394D29E7FD0A1B9470</string>
-				<string>172A8AE507C73475DF5C44B35C8C9DD0</string>
-				<string>E93FBA46A013E6FC3A6A037933867D48</string>
-				<string>987208B78AAC0347888890A282E42DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Alamofire</string>
+			<string>ViewDeck.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C60C0BAB1840ED78E320BF832EB7D90F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5DE258D0D91260BF883A299091D102DA</string>
+			<string>925F3B572456C42447317102D3F12127</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2083,34 +2606,46 @@
 				</array>
 			</dict>
 		</dict>
-		<key>C6734DE26D9CB2A9D9F14231590BE9E5</key>
+		<key>C625309C26C3FB76FAB6309BD28A97C2</key>
 		<dict>
-			<key>fileRef</key>
-			<string>91413329813FA6FE5A78842159E69621</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FSCalendar.m</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendar.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C6957CC5C1040FEF6D15D2CE2D62B709</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B3395F55DA2D68125C534CB45F2EFA4E</string>
+			<string>08BA4AEFA15E09C228F1D4A9D0986A3F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C709F5542157619F111BA6D897F40515</key>
+		<key>C8433DD297C036FAE2A473AFAA1538E2</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>C6734DE26D9CB2A9D9F14231590BE9E5</string>
+				<string>8FA399B77C810BA1C4DA66A70E2C42E5</string>
+				<string>6A4A2B3FB419FA0E0F554785EBE4065D</string>
+				<string>E3B5A492F2ADB32C460C734F3605C8F2</string>
+				<string>E04ABF8361DA6A1F2A2506D94D59F438</string>
+				<string>A61646A627E72BA6FEDD0BAA76861AEE</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>C8ABAD09F41FF515DB26E65DF243A22B</key>
+		<key>C847B17FDACFF38D14DA0025165401D8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2119,44 +2654,43 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Response.swift</string>
+			<string>Validation.swift</string>
 			<key>path</key>
-			<string>Source/Response.swift</string>
+			<string>Source/Validation.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C8D461770770A35334B5B3FAB7A0D687</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8D53E876525C7D083113AD998180AF53</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CB64B1F6BA3E65AD3701894E27735C23</key>
+		<key>CAB34DD135511CC5CF83DD20822107DF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarDynamicHeader.h</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendarDynamicHeader.h</string>
+			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CC3F1F07E3E9ECD68E454C17C7190E87</key>
+		<key>CEBADA794147C66483B0C205EDED2F4B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>503A65D3BC21F5408ADD593A6184558E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D203F99741A6ABDA028EAE99664D1670</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F8AE3B3F7D4123E8153A82987C9B22AE</string>
+			<string>015277B715FBEF4E12DEDA3B51B0CD89</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2190,7 +2724,7 @@
 				<key>MODULEMAP_FILE</key>
 				<string>Target Support Files/Pods-Nurse Clock/Pods-Nurse Clock.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
+				<string>NO</string>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>OTHER_LIBTOOLFLAGS</key>
@@ -2203,8 +2737,6 @@
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
 				<key>TARGETED_DEVICE_FAMILY</key>
 				<string>1,2</string>
 				<key>VERSIONING_SYSTEM</key>
@@ -2215,36 +2747,7 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>CD4806C83578581AE12CE7D9350B1A82</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarCell.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CEBADA794147C66483B0C205EDED2F4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CB64B1F6BA3E65AD3701894E27735C23</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>Release</string>
 		</dict>
 		<key>D249F902E7967EC9863ED1FF38B89B96</key>
 		<dict>
@@ -2262,7 +2765,7 @@
 		<key>D32B1599C198188B6478A5DB0819CB2C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CD4806C83578581AE12CE7D9350B1A82</string>
+			<string>EAE873DFF77917C55EA4E43490C244D7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2297,7 +2800,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>3598A65E6ED48C112076E80D5F1A72A6</string>
+			<string>5B130C286B90EE4523EAB7B343A0E7D9</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -2308,13 +2811,14 @@
 			<array>
 				<string>432ECC54282C84882B482CCB4CF227FC</string>
 				<string>B2619B2813D910DBC9FE9714E0788D55</string>
-				<string>AD00F3FE65826A2451DE55F77942A9A3</string>
+				<string>3A69BA3273CA5E3868E81299794CD970</string>
+				<string>0971C85E83BF151C716097EDB5309245</string>
 			</array>
 		</dict>
 		<key>D5AB12F02CDB5A6089BC4DF7693584CC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>79D62EA00E68633A28578D7AA8820D68</string>
+			<string>B365D3F28755475AA81D9E63DB6F091B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2326,7 +2830,7 @@
 		<key>D603EE78D5DBF389EC429A33757BFF5C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>18FC5D95C7AAFE040C17C34CEA381161</string>
+			<string>EAB32CAC3B877C2ECB7D0938FB74CACF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2340,7 +2844,7 @@
 		<key>D65715574379C71973CFEA438A23759B</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>E7338E48BE4E24AE5E33921C2ADDF95E</string>
+			<string>ADC0B6FE31C1DAD8E4BE30713D14AA33</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2392,21 +2896,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
-		</dict>
-		<key>D7D2DA97CFDC91BBCB426BA4D24F4888</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendar+IBExtension.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendar+IBExtension.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D9DE615671731BF3AEFB3CB1F984FA8F</key>
 		<dict>
@@ -2463,30 +2952,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DC34FD637082DF57EAE77F9374B45613</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6D3C2913AFDE56E17D75092244F00DD7</string>
-				<string>8258DDB3131680EE7763D1DB2B750F29</string>
-				<string>B3395F55DA2D68125C534CB45F2EFA4E</string>
-				<string>6BA304F3F619C25E79209A5B99C5E52C</string>
-				<string>B9409E0AD9014C50312E98CC67FE66E4</string>
-				<string>A42A3966F70EF33544ABFEF052092BA6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/FSCalendar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>DE0A4E10ED1E104BF1DEF81453A6EBC8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B9409E0AD9014C50312E98CC67FE66E4</string>
+			<string>8F5C0C0E7F3003561F5CD14B3145D148</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2496,6 +2965,36 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>DE29260EFF852C7D0127AE74FF55599D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FSCalendar.framework</string>
+			<key>path</key>
+			<string>FSCalendar.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>DE75E29444B832E49CF478F053EF577E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Alamofire.framework</string>
+			<key>path</key>
+			<string>Alamofire.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>DFBCCEADF9E8DA3E4F78CF7C5EA298E1</key>
 		<dict>
@@ -2510,7 +3009,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E0B20221768D209005D933E44DCCD0E8</key>
+		<key>E04ABF8361DA6A1F2A2506D94D59F438</key>
+		<dict>
+			<key>fileRef</key>
+			<string>03CD97EEF481AA6FF901DF5A8CB67603</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E351982EFDBC3893FB4D05F382E5154C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2519,24 +3032,36 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Alamofire.swift</string>
+			<string>Manager.swift</string>
 			<key>path</key>
-			<string>Source/Alamofire.swift</string>
+			<string>Source/Manager.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E3D247FF81F59B8AB2D7CA301AA59B0B</key>
+		<key>E3B5A492F2ADB32C460C734F3605C8F2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B25ED2954AD370E9EDE55CB0505D178E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E48AF177AF0A52EE2E6B6BE81D004E0C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Download.swift</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>Source/Download.swift</string>
+			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2556,7 +3081,7 @@
 		<key>E6B19C962D16AB1371DADFA122D126DE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>75629CBFADEAF539883563D0FAB1A321</string>
+			<string>C847B17FDACFF38D14DA0025165401D8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2565,23 +3090,10 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
-		<key>E7338E48BE4E24AE5E33921C2ADDF95E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Alamofire.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>E773A27D47BC2080FB249FBD4513AB1C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>941FBABB847234EEED5C403C82811161</string>
+			<string>83B8051CB26C0BA39115F735B01BA6FA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2595,7 +3107,7 @@
 		<key>E7DF62A87F3905A16C1C2778FC07B2EE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F53BE0C10BD33830EAF6A00F70BBA011</string>
+			<string>834CE98FD7FE2DA9DD584E558AD734F4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2604,7 +3116,7 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
-		<key>E850705DB52B358741346C6F5E8EBCBC</key>
+		<key>E8BD35034FC2696729C9126DF5A2EBD2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2613,29 +3125,36 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FSCalendarConstance.h</string>
+			<string>FSCalendarStickyHeader.h</string>
 			<key>path</key>
-			<string>FSCalendar/FSCalendarConstance.h</string>
+			<string>FSCalendar/FSCalendarStickyHeader.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E93FBA46A013E6FC3A6A037933867D48</key>
+		<key>E9335F21126CF8B03CC756AAF545832A</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>EADDDBAD5C2588ADF63F64D2F787F922</string>
+				<string>ADC0B6FE31C1DAD8E4BE30713D14AA33</string>
+				<string>BEA06FBBE16A77FA40FA563418498C89</string>
+				<string>98E2FD9F774A2BBD0D3A490AD06E81D1</string>
+				<string>B760523218B92BF3CD663A457BFCEADB</string>
+				<string>6B6657B7F72688391C7BF9A92E3500C6</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>Alamofire-umbrella.h</string>
+			<string>../Target Support Files/Alamofire</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>EA3C5E34F8F497B722021ECE98AF424D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AF0804EA6DF1F5361C916363F58FAEDF</string>
+			<string>FA39CAEDDB5BE93B0B787EACF13067E2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2644,10 +3163,92 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
+		<key>EAAAB7F92CFAB6D356B28FB656EDEF55</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Error.swift</string>
+			<key>path</key>
+			<string>Source/Error.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAB32CAC3B877C2ECB7D0938FB74CACF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FSCalendarAppearance.h</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendarAppearance.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EADDDBAD5C2588ADF63F64D2F787F922</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Alamofire.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAE873DFF77917C55EA4E43490C244D7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FSCalendarCell.m</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendarCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EB9A4AD55E27C947B319FFA62823D580</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>ViewDeck.framework</string>
+			<key>path</key>
+			<string>ViewDeck.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>ECA819C99A359244B1E9B7403B233F49</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Alamofire</string>
+			<key>target</key>
+			<string>432ECC54282C84882B482CCB4CF227FC</string>
+			<key>targetProxy</key>
+			<string>1263FD408D6A44ED75ED1DE566578DC7</string>
+		</dict>
 		<key>ECD676025B53FC44824943D0A5911BF7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2851B702C71930CC091FB9D9C6D43032</string>
+			<string>C625309C26C3FB76FAB6309BD28A97C2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2672,7 +3273,7 @@
 		<key>F29C88F2442FD681048BF648E922C590</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B4A5B6F90A3D16D56EC6CAA58266739C</string>
+			<string>3D2E01F0C0793132CD8DAFD29E3880E6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2681,54 +3282,10 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
-		<key>F42067920DCE2D30BCB89C0F65CFBC8F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5B3740C70C734FF530BF19DFD3D213DE</string>
-				<string>834E25B63E279CA758F4F6699AB4C5FA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F44783029B157E70964780A45E1D87AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSDate+FSExtension.h</string>
-			<key>path</key>
-			<string>FSCalendar/NSDate+FSExtension.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F53BE0C10BD33830EAF6A00F70BBA011</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarConstance.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarConstance.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>F5466AB5187F836038F95DA160887D05</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AB9A9A4D3C32A39322239B6925835E12</string>
+			<string>62636E2F8878395FBA4AFFF658D610F7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2753,7 +3310,7 @@
 		<key>F7317B2BAF77EC9AF9422499C1D467AA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2789AC42AC27778FFC03A85B982D815A</string>
+			<string>8874C13B619C116FD2FAACD897E75D69</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2767,7 +3324,7 @@
 		<key>F7944D091AD240B80D98066395A99B95</key>
 		<dict>
 			<key>fileRef</key>
-			<string>54A90D54CD302C35A96C15988747EDD8</string>
+			<string>0315F090E19A5FFDF0BE0141D0CB0B67</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2794,7 +3351,7 @@
 		<key>F9343C41D186B09D167FA5C77F995A19</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5EF3254CB7DE36232172613DF94E5084</string>
+			<string>9F583A993DDCDB794312405EC2182B09</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2803,10 +3360,44 @@
 				<string>-w -Xanalyzer -analyzer-disable-all-checks</string>
 			</dict>
 		</dict>
+		<key>F9BEF3FBA9D237610AA7AFC48C79AD79</key>
+		<dict>
+			<key>fileRef</key>
+			<string>97E5C1B153067B2CFD2455B5E44B4513</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA39CAEDDB5BE93B0B787EACF13067E2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FSCalendarStickyHeader.m</string>
+			<key>path</key>
+			<string>FSCalendar/FSCalendarStickyHeader.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB183C77249A3A86D4C1670B88CE7946</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A3F6BF89E666695BE5E6E33876FA27A0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks</string>
+			</dict>
+		</dict>
 		<key>FCF136B11A94E05EFE2834F776DB9D76</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BAE37C8A554C393ADA97290E51798AB1</string>
+			<string>B97885DBD6AAB53C0B8252820120340D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2818,7 +3409,7 @@
 		<key>FD827628BC36F9D907F700BE456BDE21</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0DF6B85A6B7B65C7FB8FE9806B276029</string>
+			<string>E351982EFDBC3893FB4D05F382E5154C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2830,7 +3421,7 @@
 		<key>FEE9C54E43069347DE85C204E01965D3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>68833B1433708282397F7165F60668D8</string>
+			<string>0A820AA887DF29AB97355EDE04242F40</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
