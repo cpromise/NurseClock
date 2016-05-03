@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F294A0311CD8DC7F008AB3CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F294A0301CD8DC7F008AB3CA /* AppDelegate.swift */; };
+		F294A0331CD8DC7F008AB3CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F294A0321CD8DC7F008AB3CA /* ViewController.swift */; };
+		F294A0361CD8DC7F008AB3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F294A0341CD8DC7F008AB3CA /* Main.storyboard */; };
+		F294A0391CD8DC7F008AB3CA /* Nurse_Clock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F294A0371CD8DC7F008AB3CA /* Nurse_Clock.xcdatamodeld */; };
+		F294A03B1CD8DC7F008AB3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F294A03A1CD8DC7F008AB3CA /* Assets.xcassets */; };
+		F294A03E1CD8DC7F008AB3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F294A03C1CD8DC7F008AB3CA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F294A02D1CD8DC7F008AB3CA /* Nurse Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nurse Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F294A0301CD8DC7F008AB3CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F294A0321CD8DC7F008AB3CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F294A0351CD8DC7F008AB3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F294A0381CD8DC7F008AB3CA /* Nurse_Clock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nurse_Clock.xcdatamodel; sourceTree = "<group>"; };
+		F294A03A1CD8DC7F008AB3CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F294A03D1CD8DC7F008AB3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F294A03F1CD8DC7F008AB3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F294A02A1CD8DC7F008AB3CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F294A0241CD8DC7F008AB3CA = {
+			isa = PBXGroup;
+			children = (
+				F294A02F1CD8DC7F008AB3CA /* Nurse Clock */,
+				F294A02E1CD8DC7F008AB3CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F294A02E1CD8DC7F008AB3CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F294A02D1CD8DC7F008AB3CA /* Nurse Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F294A02F1CD8DC7F008AB3CA /* Nurse Clock */ = {
+			isa = PBXGroup;
+			children = (
+				F294A0301CD8DC7F008AB3CA /* AppDelegate.swift */,
+				F294A0321CD8DC7F008AB3CA /* ViewController.swift */,
+				F294A0341CD8DC7F008AB3CA /* Main.storyboard */,
+				F294A03A1CD8DC7F008AB3CA /* Assets.xcassets */,
+				F294A03C1CD8DC7F008AB3CA /* LaunchScreen.storyboard */,
+				F294A03F1CD8DC7F008AB3CA /* Info.plist */,
+				F294A0371CD8DC7F008AB3CA /* Nurse_Clock.xcdatamodeld */,
+			);
+			path = "Nurse Clock";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F294A02C1CD8DC7F008AB3CA /* Nurse Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F294A0421CD8DC7F008AB3CA /* Build configuration list for PBXNativeTarget "Nurse Clock" */;
+			buildPhases = (
+				F294A0291CD8DC7F008AB3CA /* Sources */,
+				F294A02A1CD8DC7F008AB3CA /* Frameworks */,
+				F294A02B1CD8DC7F008AB3CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nurse Clock";
+			productName = "Nurse Clock";
+			productReference = F294A02D1CD8DC7F008AB3CA /* Nurse Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F294A0251CD8DC7F008AB3CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SH;
+				TargetAttributes = {
+					F294A02C1CD8DC7F008AB3CA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F294A0281CD8DC7F008AB3CA /* Build configuration list for PBXProject "Nurse Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F294A0241CD8DC7F008AB3CA;
+			productRefGroup = F294A02E1CD8DC7F008AB3CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F294A02C1CD8DC7F008AB3CA /* Nurse Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F294A02B1CD8DC7F008AB3CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F294A03E1CD8DC7F008AB3CA /* LaunchScreen.storyboard in Resources */,
+				F294A03B1CD8DC7F008AB3CA /* Assets.xcassets in Resources */,
+				F294A0361CD8DC7F008AB3CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F294A0291CD8DC7F008AB3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F294A0331CD8DC7F008AB3CA /* ViewController.swift in Sources */,
+				F294A0391CD8DC7F008AB3CA /* Nurse_Clock.xcdatamodeld in Sources */,
+				F294A0311CD8DC7F008AB3CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F294A0341CD8DC7F008AB3CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F294A0351CD8DC7F008AB3CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F294A03C1CD8DC7F008AB3CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F294A03D1CD8DC7F008AB3CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F294A0401CD8DC7F008AB3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F294A0411CD8DC7F008AB3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F294A0431CD8DC7F008AB3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nurse Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cafe24.cpromise.Nurse-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F294A0441CD8DC7F008AB3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nurse Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cafe24.cpromise.Nurse-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F294A0281CD8DC7F008AB3CA /* Build configuration list for PBXProject "Nurse Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F294A0401CD8DC7F008AB3CA /* Debug */,
+				F294A0411CD8DC7F008AB3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F294A0421CD8DC7F008AB3CA /* Build configuration list for PBXNativeTarget "Nurse Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F294A0431CD8DC7F008AB3CA /* Debug */,
+				F294A0441CD8DC7F008AB3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F294A0371CD8DC7F008AB3CA /* Nurse_Clock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F294A0381CD8DC7F008AB3CA /* Nurse_Clock.xcdatamodel */,
+			);
+			currentVersion = F294A0381CD8DC7F008AB3CA /* Nurse_Clock.xcdatamodel */;
+			path = Nurse_Clock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F294A0251CD8DC7F008AB3CA /* Project object */;
+}
