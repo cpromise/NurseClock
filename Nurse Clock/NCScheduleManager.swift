@@ -47,7 +47,7 @@ class NCScheduleModel: NSObject {
         let fetchRequest = NSFetchRequest(entityName: "NCWorkSchedule")
         do{
             let resultEntities = try managedContext.executeFetchRequest(fetchRequest) as! [NSManagedObject]
-            print("count : \(resultEntities.count)")
+//            print("count : \(resultEntities.count)")
             for row in resultEntities {
                 let year = row.valueForKey("year") as? Int
                 let month = row.valueForKey("month") as? Int

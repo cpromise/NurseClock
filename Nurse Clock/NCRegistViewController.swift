@@ -8,10 +8,12 @@
 
 import Foundation
 import UIKit
+import FSCalendar
 
-class NCRegistViewController: UIViewController {
+class NCRegistViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate {
     
     let scheduleModel = NCScheduleModel()
+    @IBOutlet weak var calendarView: NCCalendarView!
     
     @IBOutlet weak var lbThisMonth: UILabel!
     @IBOutlet weak var tfWorkSchedule: UITextField!
@@ -46,4 +48,18 @@ class NCRegistViewController: UIViewController {
         
         lbThisMonth.text = "\(NCDateManager.year)년 \(Int(NCDateManager.month)!)월"
     }
+    
+    func calendar(calendar: FSCalendar, didSelectDate date: NSDate) {
+        print(calendar.selectedDate)
+    }
+    @IBAction func onTouchedDate(sender: AnyObject) {
+        var currentDate:NSDate? = calendarView.selectedDate
+        if currentDate == nil {
+            currentDate = calendarView.today
+        }
+        currentDate = currentDate!.dateByAddingTimeInterval(60*60*24*1)
+        calendarView.selectDate(currentDate!)
+        print(calendarView.selectedDate)
+    }
+    
 }

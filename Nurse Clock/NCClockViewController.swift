@@ -9,24 +9,53 @@
 import UIKit
 
 class NCClockViewController: UIViewController {
+    
+    // 스케쥴, 시계 관련
+    let dateManager = NCDateManager()
+    let scheduleModel = NCScheduleModel()
     @IBOutlet weak var lbWork: UILabel!
     @IBOutlet weak var lbDate: UILabel!
     @IBOutlet weak var lbTime: UILabel!
     @IBOutlet weak var btnRegistSchedule: UIButton!
+    @IBOutlet weak var lbLocation: UILabel!
+    @IBOutlet weak var lbTimeForecast: UILabel!
     
-    let dateManager = NCDateManager()
-    let scheduleModel = NCScheduleModel()
-    let vc = NCRegistViewController()
-    
-    //날씨
-    let weatherModel = NCWeatherModel()
+    // 날씨 관련
+    let weatherManager = NCWeatherManager()
+    @IBOutlet weak var collectionView: NCWeatherCollectionView! // 연속 날씨 컬렉션 뷰
+    let weatherDataSource = NCWeatherCollectionViewDataSource()
+    var weatherModel: NCWeatherModel = NCWeatherModel() {
+        didSet{
+            weatherDataSource.weatherModel = weatherModel
+            collectionView.reloadData()
+            lbLocation.text = weatherModel.location
+            
+            if let timeForecast = weatherModel.timeForecast {
+                lbTimeForecast.text = "측정 시간 : \(timeForecast[0...15])"
+            } else {
+                lbTimeForecast.text = "측정 시간을 가져오지 못했습니다."
+            }
+            
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        collectionView.dataSource = weatherDataSource
+        
         NSTimer.scheduledTimerWithTimeInterval(0.8, target: self, selector: #selector(updateLabels), userInfo: nil, repeats: true)
         updateLabels()
         
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) { 
+            self.weatherManager.requestWeatherInfo {
+                [weak self] NCWeatherModel in
+                
+                self!.weatherModel = NCWeatherModel
+            }
+        }
+        
+        print("\(NSDate())")
     }
     
     override func viewDidAppear(animated: Bool) {

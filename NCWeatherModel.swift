@@ -21,7 +21,13 @@ import Foundation
  */
 
 struct NCWeatherModel {
-    var currentWeather:[String:String]?
-    var beginWeather:[String:String]?
-    var finishWeather:[String:String]?
+    let supportedTime = [4,7,10,13,16,19,22,25,28,31,34,37,40,43,46,49,52,55,58,61]
+    var location:String?
+    
+    // 기상예보 관측 시간
+    var timeForecast:String?
+ 
+    // key : 지금으로 부터 N시간 뒤
+    // value : N시간 후의 날씨 정보
+    var inNhours:[String:[String:String]]? = Dictionary()
 }

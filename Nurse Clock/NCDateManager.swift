@@ -57,5 +57,10 @@ class NCDateManager:NSObject {
         timeFormatter.locale = NSLocale(localeIdentifier: "en_US")
     }
     
-    
+    var isDay:Bool {
+        timeFormatter.dateFormat = "H"
+        let hour = Int(timeFormatter.stringFromDate(NSDate()))
+        
+        return (hour>5 && hour<20)
+    }
 }

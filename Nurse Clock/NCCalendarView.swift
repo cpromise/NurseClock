@@ -10,6 +10,8 @@ import Foundation
 import FSCalendar
 
 class NCCalendarView: FSCalendar {
+//    var currentFocuesDate: NSDate?
+    
     
 }
 
