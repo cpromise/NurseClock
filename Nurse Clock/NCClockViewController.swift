@@ -12,7 +12,6 @@ class NCClockViewController: UIViewController {
     
     // 스케쥴, 시계 관련
     let dateManager = NCDateManager()
-    let scheduleModel = NCScheduleModel()
     @IBOutlet weak var lbWork: UILabel!
     @IBOutlet weak var lbDate: UILabel!
     @IBOutlet weak var lbTime: UILabel!
@@ -61,14 +60,9 @@ class NCClockViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        if scheduleModel.appFirstExcuted {
+        if NCScheduleManager.sharedInstance.appFirstExcuted {
             alertShouldRegistWorkSchedule()
         }
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func updateLabels() {
@@ -98,7 +92,7 @@ class NCClockViewController: UIViewController {
     }
     
     func onTouchedDenyToRegist() {
-        scheduleModel.setDenyToRegist()
+        NCScheduleManager.sharedInstance.setDenyToRegist()
     }
     
     func toggleScheduleView() {
@@ -114,6 +108,11 @@ class NCClockViewController: UIViewController {
     
     @IBAction func onTouchedRegistSchedule(sender: AnyObject) {
     }
-    
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("memory warning at \(self.description)")
+    }
+
 }
 

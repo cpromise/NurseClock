@@ -12,7 +12,6 @@ import FSCalendar
 
 class NCRegistViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate {
     
-    let scheduleModel = NCScheduleModel()
     @IBOutlet weak var calendarView: NCCalendarView!
     
     @IBOutlet weak var lbThisMonth: UILabel!
@@ -23,9 +22,9 @@ class NCRegistViewController: UIViewController, FSCalendarDataSource, FSCalendar
     }
     
     @IBAction func onTouchedSave(sender: AnyObject) {
-        let validateResult = NCScheduleModel.validateSchedule(tfWorkSchedule.text)
+        let validateResult = NCScheduleManager.validateSchedule(tfWorkSchedule.text)
         if validateResult.0 {
-            scheduleModel.insertSchedule(tfWorkSchedule.text!)
+            NCScheduleManager.sharedInstance.insertSchedule(tfWorkSchedule.text!)
             self.dismissViewControllerAnimated(true, completion: nil)
         } else {
             var message = ""
@@ -52,6 +51,19 @@ class NCRegistViewController: UIViewController, FSCalendarDataSource, FSCalendar
     func calendar(calendar: FSCalendar, didSelectDate date: NSDate) {
         print(calendar.selectedDate)
     }
+    
+    func calendar(calendar: FSCalendar, subtitleForDate date: NSDate) -> String? {
+        
+        print("calendar.currentPage : \(date)")
+        
+        if date.compare(NSDate()) == .OrderedAscending {
+            return "A"
+        } else {
+            return "B"
+        }
+    }
+    
+    
     @IBAction func onTouchedDate(sender: AnyObject) {
         var currentDate:NSDate? = calendarView.selectedDate
         if currentDate == nil {
@@ -59,7 +71,16 @@ class NCRegistViewController: UIViewController, FSCalendarDataSource, FSCalendar
         }
         currentDate = currentDate!.dateByAddingTimeInterval(60*60*24*1)
         calendarView.selectDate(currentDate!)
-        print(calendarView.selectedDate)
+        
+        let touchedBtn = sender as! UIButton
+        let schedule = touchedBtn.titleLabel!.text!
+        
+        print("\(calendarView.selectedDate)에는 \(schedule)입니다.")
+        
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("memory warning at \(self.description)")
+    }
 }

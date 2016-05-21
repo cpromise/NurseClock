@@ -1,5 +1,5 @@
 //
-//  NCScheduleModel.swift
+//  NCScheduleManager.swift
 //  Nurse Clock
 //
 //  Created by SH on 2016. 5. 3..
@@ -10,10 +10,12 @@ import UIKit
 import Foundation
 import CoreData
 
-class NCScheduleModel: NSObject {
+class NCScheduleManager: NSObject {
     let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     let managedContext:NSManagedObjectContext
     var lastUpdated:String?
+    
+    static let sharedInstance = NCScheduleManager()
     
     // 앱이 첫 실행인지를 판단
     var appFirstExcuted:Bool {
@@ -35,6 +37,7 @@ class NCScheduleModel: NSObject {
         return true
     }
     
+    // 시스템의 날짜 기준으로 오늘의 근무를 리턴
     var todaySchedule:String? {
         if let schedule = getThisMonthScheduleValue() {
             return schedule[Int(NCDateManager.date)!-1]
@@ -43,11 +46,18 @@ class NCScheduleModel: NSObject {
         }
     }
     
+    func getThisMonthScheduleValue() -> String? {
+        return getThisMonthSchedule()?.valueForKey("schedule") as? String
+    }
+    
+    /**
+     Get the schedule of this month.(presented by the System)
+     -returns: schedule data if exists in Coredata. if not returns nil
+     */
     func getThisMonthSchedule() -> NSManagedObject? {
         let fetchRequest = NSFetchRequest(entityName: "NCWorkSchedule")
         do{
             let resultEntities = try managedContext.executeFetchRequest(fetchRequest) as! [NSManagedObject]
-//            print("count : \(resultEntities.count)")
             for row in resultEntities {
                 let year = row.valueForKey("year") as? Int
                 let month = row.valueForKey("month") as? Int
@@ -62,11 +72,11 @@ class NCScheduleModel: NSObject {
         return nil
     }
     
-    func getThisMonthScheduleValue() -> String? {
-        return getThisMonthSchedule()?.valueForKey("schedule") as? String
-    }
-    
-    // TODO: 하나의 row만 사용할 수 있도록 수정 필요함
+    /**
+     Make app stop asking the users whether to insert the schedule or not.
+     Just make a empty row and insert to Coredata.
+     Thereafter application becomes to decide to show an alert or not judging by the data.
+     */
     func setDenyToRegist() {
         let entity =  NSEntityDescription.entityForName("NCLastUpdated", inManagedObjectContext:managedContext)
         let agreeInfo = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext)
@@ -85,6 +95,10 @@ class NCScheduleModel: NSObject {
         
     }
     
+    /**
+     Insert monthly schedule to Coredata.
+     - parameter schedule: string representing the schedule of the month.
+     */
     func insertSchedule(schedule:String) {
         if let scheduleObject = getThisMonthSchedule() {
             scheduleObject.setValue(schedule, forKey: "schedule")
@@ -107,6 +121,11 @@ class NCScheduleModel: NSObject {
         
     }
     
+    /**
+     Compare the length of the Schedule String with the number of dates of the month.
+     - parameter inputValue: string representing the schedule of the month.
+     - returns: validation for the input string and the number of dates of the month.
+     */
     static func validateSchedule(inputValue:String?) -> (Bool, Int?) {
         
         if let input:String = inputValue {

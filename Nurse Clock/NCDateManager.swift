@@ -14,8 +14,12 @@ class NCDateManager:NSObject {
     var flash:Bool = true
     let timeFormatter:NSDateFormatter = NSDateFormatter()
     let dateFormatter:NSDateFormatter = NSDateFormatter()
-    let scheduleModel = NCScheduleModel()
     var lastUpdated:String?
+    
+    override init() {
+        super.init()
+        timeFormatter.locale = NSLocale(localeIdentifier: "en_US")
+    }
     
     static var year:String {
         let dateFormatter:NSDateFormatter = NSDateFormatter()
@@ -34,7 +38,7 @@ class NCDateManager:NSObject {
     }
     
     var strWork:String? {
-        return scheduleModel.todaySchedule
+        return NCScheduleManager.sharedInstance.todaySchedule
     }
     
     var strTime:String {
@@ -52,11 +56,10 @@ class NCDateManager:NSObject {
         return dateFormatter.stringFromDate(NSDate())
     }
     
-    override init() {
-        super.init()
-        timeFormatter.locale = NSLocale(localeIdentifier: "en_US")
-    }
-    
+    /**
+     지금 시간이 낮인지 밤인지를 리턴.
+     -returns: true if it's day time or false if it's night time.
+     */
     var isDay:Bool {
         timeFormatter.dateFormat = "H"
         let hour = Int(timeFormatter.stringFromDate(NSDate()))
