@@ -10,8 +10,15 @@ import Foundation
 import FSCalendar
 
 class NCCalendarView: FSCalendar {
-//    var currentFocuesDate: NSDate?
-    
     
 }
 
+
+extension NCCalendarView:UICollectionViewDelegate {
+    func collectionView(collectionView: UICollectionView, didEndDisplayingCell cell: UICollectionViewCell, forItemAtIndexPath indexPath: NSIndexPath) {
+        let dateCell = cell as! FSCalendarCell
+        
+        dateCell.shapeLayer.backgroundColor = UIColor.clearColor().CGColor
+    }
+    
+}

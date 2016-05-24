@@ -12,6 +12,15 @@ class NCClockViewController: UIViewController {
     
     // 스케쥴, 시계 관련
     let dateManager = NCDateManager()
+
+    // 날짜가 바뀔 때만 스케쥴 텍스트를 바꾸도록 변경 (코어데이터 조회 최소화)
+    var todayDate = NCDateManager.date {
+        didSet {
+            if todayDate != oldValue {
+                toggleScheduleView()
+            }
+        }
+    }
     @IBOutlet weak var lbWork: UILabel!
     @IBOutlet weak var lbDate: UILabel!
     @IBOutlet weak var lbTime: UILabel!
@@ -19,6 +28,9 @@ class NCClockViewController: UIViewController {
     @IBOutlet weak var lbLocation: UILabel!
     @IBOutlet weak var lbTimeForecast: UILabel!
     
+    @IBAction func tmpToggleAction(sender: AnyObject) {
+        toggleScheduleView()
+    }
     // 날씨 관련
     let weatherManager = NCWeatherManager()
     @IBOutlet weak var collectionView: NCWeatherCollectionView! // 연속 날씨 컬렉션 뷰
@@ -45,6 +57,7 @@ class NCClockViewController: UIViewController {
         
         NSTimer.scheduledTimerWithTimeInterval(0.8, target: self, selector: #selector(updateLabels), userInfo: nil, repeats: true)
         updateLabels()
+        toggleScheduleView()
         
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) { 
             self.weatherManager.requestWeatherInfo {
@@ -65,10 +78,18 @@ class NCClockViewController: UIViewController {
         }
     }
     
-    func updateLabels() {
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
         toggleScheduleView()
+    }
+    
+    func updateLabels() {
         lbDate.text = dateManager.strDate
         lbTime.text = dateManager.strTime
+        
+        // 날짜가 바뀌면 스케쥴텍스트를 변경하도록 해줌
+        todayDate = NCDateManager.date
     }
     
     func alertShouldRegistWorkSchedule() {

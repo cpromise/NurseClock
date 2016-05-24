@@ -29,5 +29,10 @@ struct NCWeatherModel {
  
     // key : 지금으로 부터 N시간 뒤
     // value : N시간 후의 날씨 정보
+        // key : skyCode, skyDesc, rainProb, temp, skyIcon
     var inNhours:[String:[String:String]]? = Dictionary()
+    
+    // 현재 날씨 (if needed)
+    var currentWeather:[String:String]?
+    
 }

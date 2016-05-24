@@ -134,6 +134,13 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZd-qg-lDm">
+                                <rect key="frame" x="28" y="28" width="44" height="30"/>
+                                <state key="normal" title="toggle"/>
+                                <connections>
+                                    <action selector="tmpToggleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AjE-kQ-Iws"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>

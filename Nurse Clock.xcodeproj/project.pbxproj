@@ -71,6 +71,7 @@
 		F2B73D111CDF521A004B2A45 /* NCWeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B73D0F1CDF5219004B2A45 /* NCWeatherCollectionViewCell.swift */; };
 		F2B73D141CDF5298004B2A45 /* NCWeatherCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B73D131CDF5297004B2A45 /* NCWeatherCollectionView.swift */; };
 		F2B73D341CE4BB0E004B2A45 /* icon_miso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2B73D331CE4BB0E004B2A45 /* icon_miso.jpg */; };
+		F2B73D371CF1CB1F004B2A45 /* NCUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B73D361CF1CB1F004B2A45 /* NCUtil.swift */; };
 		F9414ABE2512DEBA96F5518C /* Pods_Nurse_Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624884CB1A23CC27255A649F /* Pods_Nurse_Clock.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,7 +84,7 @@
 		F28F87641CD8ECEC00721C9B /* swiftbridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swiftbridge.h; sourceTree = "<group>"; };
 		F28F87681CD8F4E200721C9B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		F294A02D1CD8DC7F008AB3CA /* Nurse Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nurse Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F294A0301CD8DC7F008AB3CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F294A0301CD8DC7F008AB3CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Nurse Clock/AppDelegate.swift"; sourceTree = "<group>"; };
 		F294A0351CD8DC7F008AB3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F294A0381CD8DC7F008AB3CA /* Nurse_Clock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nurse_Clock.xcdatamodel; sourceTree = "<group>"; };
 		F294A03A1CD8DC7F008AB3CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,6 +146,7 @@
 		F2B73D0F1CDF5219004B2A45 /* NCWeatherCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NCWeatherCollectionViewCell.swift; sourceTree = "<group>"; };
 		F2B73D131CDF5297004B2A45 /* NCWeatherCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NCWeatherCollectionView.swift; sourceTree = "<group>"; };
 		F2B73D331CE4BB0E004B2A45 /* icon_miso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_miso.jpg; sourceTree = "<group>"; };
+		F2B73D361CF1CB1F004B2A45 /* NCUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NCUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,8 @@
 		F294A0241CD8DC7F008AB3CA = {
 			isa = PBXGroup;
 			children = (
+				F294A0301CD8DC7F008AB3CA /* AppDelegate.swift */,
+				F294A0341CD8DC7F008AB3CA /* Main.storyboard */,
 				F28F87651CD8F38500721C9B /* Resources */,
 				F28F87641CD8ECEC00721C9B /* swiftbridge.h */,
 				F2A114611CD8DFC100F2CAD5 /* Podfile */,
@@ -218,12 +222,11 @@
 		F294A02F1CD8DC7F008AB3CA /* Nurse Clock */ = {
 			isa = PBXGroup;
 			children = (
+				F2B73D351CF1CB09004B2A45 /* Util */,
 				F28F875F1CD8EC4900721C9B /* Calendar */,
 				F2A114631CD8E28C00F2CAD5 /* Weather */,
-				F294A0301CD8DC7F008AB3CA /* AppDelegate.swift */,
 				F28F875D1CD8EAF200721C9B /* NCClockViewController.swift */,
 				F294A04B1CD8DE71008AB3CA /* NCRegistViewController.swift */,
-				F294A0341CD8DC7F008AB3CA /* Main.storyboard */,
 				F294A03A1CD8DC7F008AB3CA /* Assets.xcassets */,
 				F294A03C1CD8DC7F008AB3CA /* LaunchScreen.storyboard */,
 				F294A03F1CD8DC7F008AB3CA /* Info.plist */,
@@ -298,6 +301,14 @@
 				F2B73CD41CDE6229004B2A45 /* 42.png */,
 			);
 			name = weather_icons;
+			sourceTree = "<group>";
+		};
+		F2B73D351CF1CB09004B2A45 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F2B73D361CF1CB1F004B2A45 /* NCUtil.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -481,6 +492,7 @@
 				F294A04C1CD8DE71008AB3CA /* NCRegistViewController.swift in Sources */,
 				F2B73D141CDF5298004B2A45 /* NCWeatherCollectionView.swift in Sources */,
 				F2A114651CD8E2A500F2CAD5 /* NCWeatherManager.swift in Sources */,
+				F2B73D371CF1CB1F004B2A45 /* NCUtil.swift in Sources */,
 				F294A04A1CD8DD4E008AB3CA /* NCDateManager.swift in Sources */,
 				F294A0311CD8DC7F008AB3CA /* AppDelegate.swift in Sources */,
 			);
@@ -495,6 +507,7 @@
 				F294A0351CD8DC7F008AB3CA /* Base */,
 			);
 			name = Main.storyboard;
+			path = "Nurse Clock";
 			sourceTree = "<group>";
 		};
 		F294A03C1CD8DC7F008AB3CA /* LaunchScreen.storyboard */ = {
